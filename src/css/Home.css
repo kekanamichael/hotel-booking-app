@@ -1,0 +1,635 @@
+body{
+    background-color: #E0EAEE;
+
+}
+.bd{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.welcome{
+    background-image: url('../Files/pexels-donald-tong-189296.jpg');
+    background-size: 100% 100%;
+    max-height: 1000px;
+    background-repeat: no-repeat;
+    width: 90%;
+    min-width: 50%;
+    height: 800px;
+    flex-wrap: wrap;
+ 
+    color: white;
+    font-size: 40px;
+/*     filter: drop-shadow(8px 8px 10px rgb(0, 0, 0)); */
+    justify-content: flex-start;
+    
+
+}
+.back, .darker{
+    background-color: rgba(0, 0, 0,0.4);
+}
+.logo{
+    margin-left: 80px;
+    list-style-type: none;
+}
+ul{
+    display: flex;
+    margin-right: 80px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.navmenu, .homelink, .logLink, .regLink{
+    text-decoration: none ;
+    list-style-type: none;
+    padding-right: 20px;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+.homelink{
+    color: #003996;
+}
+.info{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 20px;
+    padding-top: 0px ;
+    padding-bottom: 5px ;
+    border-radius: 16px;
+}
+.secdiv{
+    height: 4000px;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    flex-wrap: wrap;
+}
+.line{
+    background-color: rgb(228, 187, 113);
+    width: 120px;
+    height: 7px;
+}
+.about{
+    display: flex;
+    margin-top: 50px;
+}
+.sidediv{
+    margin-left: 100px;
+    width: 50%;
+    font-size: 20px;
+}
+.sec{
+    margin-left: 50px;
+    width: 50%;
+    margin-right: 160px;
+    font-size: 20px;
+}
+.search{
+    background-color: #052352;
+    width: 80%;
+    height: 200px;
+    position:absolute; top: 750px;
+    color: white;
+ 
+}
+.booking{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.label2{
+    margin-left: 245px;
+}
+.date{
+    padding: 15px;
+    width: 200px;
+}
+.date1{
+    padding: 15px;
+    width: 200px;
+    margin-left: 80px;
+}
+.btn{
+    color: white;
+    background-color: rgb(24, 155, 241);
+    margin-left: 160px;
+    width: 200px;
+  height: 200px;
+  position: absolute; bottom: 0px; left: 1165px;
+  border: none;
+  font-size: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(36, 110, 110);;
+}
+.service{  
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 800px;
+    max-height: 1200px;
+}
+.header4{
+    display: flex;
+    margin-top: 50px;
+}
+h4{ 
+    margin-left: 100px; margin-bottom: 0px;
+}
+
+.serContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+.class{
+    font-size: 20px;
+    font-weight: 10;
+}
+.box{
+    
+    height: 350px;
+    min-width: 500px;
+    margin: 25px;
+    flex-basis: 200px;
+    background-color: #D9D9D9;
+    color: black;
+    text-align: center;
+}
+.box:hover{
+    margin: 50px;
+    cursor: pointer;
+}
+.one{
+    background-image: url('../Files/pexels-cottonbro-6466292.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.two{
+    background-image: url('../Files/pexels-darya-sannikova-2927523.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.three{
+    background-image: url('../Files/pexels-leticia-ribeiro-2112648.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.four{
+    background-image: url('../Files/pexels-mart-production-7088526.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.five{
+    background-image: url('../Files/pexels-torsten-dettlaff-70912.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.six{
+    background-image: url('../Files/pexels-rodnae-productions-7363057.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.serve{
+    margin-top: 350px;
+    padding-bottom: 60px;
+    font-size: 32px;
+    font-weight: 10;
+    font-family:sans-serif
+}
+.galContainer{
+    
+    margin-top: 100px;
+    width: 100%;
+}
+.gal{
+    margin-left: 100px;
+    font-size: 20px;
+}
+.headers{
+    display: flex;
+    width: 90%;
+ 
+}
+.view{
+    margin-left: 900px;
+    margin-top: 50px;
+  
+}
+.view a{text-decoration: none; 
+    color: black;  
+    background-color: rgb(212, 125, 85); 
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    border-radius: 7px; 
+    padding-left: 20px; 
+    padding-right: 20px;
+}
+.view a:hover{
+    background-color: rgb(218, 149, 118) ;
+}
+.suits{
+    display: flex;
+    flex-wrap: wrap;
+}
+.room{
+    height: 700px;
+    min-width: 450px;
+    margin-right: 25px;
+    margin-top: 35px;
+    flex-basis: 200px;
+    background-color: #D9D9D9;
+    color: black;
+    text-align: center;
+}
+.images12{
+    width: 450px;
+    height: 550px;
+}
+.images12:hover{
+    cursor: pointer;
+}
+.conContainer{
+    justify-content: center;
+    text-align: center;
+}
+.contact{
+    text-align: left;
+    height: 150px;
+    min-width: 200px;
+    margin-left: 70px;
+    margin-top: 0px;
+
+}
+.contactUs{
+    font-size: 20px;
+    font-weight: 350;
+}
+ .getIntouch{
+    background-color: #D9D9D9;
+}
+.touch{
+    margin: 25px;
+    padding: 20px;
+    width: 36%;
+} 
+.touch::placeholder{
+    font-size: 24px;
+}
+.message{
+    width: 79.7%;
+    height: 250px;
+}
+.message::placeholder{
+    font-size: 24px;
+}
+.send{
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+    background-color: rgb(13, 146, 42);
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 24px;
+}
+.con{
+    width: 80%;
+    height: 600px;
+    max-height: 1000px;
+     display: flex; 
+    flex-wrap: wrap;
+    
+    font-size: 20px;
+    margin-right: 100px;
+}
+.icon{
+    color:rgb(199, 170, 116);
+    font-size: 24px;
+ 
+}
+.wrapper{
+    display: flex;
+    margin: 15px;
+}
+.toparrow{
+    position: fixed;
+    bottom: 15px;
+    right: 100px;
+    font-size: 50px;
+    color: #003996;
+}
+
+
+/* Register css */
+.loginPg{
+    background-image: url('../Files/pexels-max-vakhtbovych-7535054.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding-top: 60px;
+    height: 93.8vh;
+}
+.firstDiv{
+    background-image: url('../Files/pexels-donald-tong-189296.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 60%;
+    height: 800px;
+    color: white;
+    font-size: 32px;
+}
+.div{
+    margin-top: 50px;
+    margin-left: 90px;
+    display: flex;
+    background-color: #3058df;
+    width: 90%;
+    filter: drop-shadow(8px 8px 10px rgb(50, 112, 163));
+}
+.form1{
+    filter: drop-shadow(8px 8px 10px rgb(0, 0, 0)); 
+    background-color: rgba(0, 0, 0,0.5);
+    width: 70%;
+    color: white;
+    border-bottom: solid 1px orangered;
+}
+.input{
+    padding: 20px;
+    margin: 30px;
+    width: 50%;
+    
+    border: none;
+    border-bottom: 2px solid rgb(65, 143, 216);
+}
+.reg{
+    width: 40%;
+    padding: 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.loginP{
+    font-size: 22px;
+    color: white;
+}
+.loginLink{
+    text-decoration: none;
+    color: #2489a8;
+}
+.regHeader{
+    color: #fff;
+    margin-top: 7px;
+}
+.wel{
+    margin-top: 220px;
+}
+.addhotel{
+    background-color: #E0EAEE;
+    height: 944px;
+}
+
+.dinput, .select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.formRoom{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 80%;
+}
+.fbtn{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.ftable{
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 50px;
+}
+.ftable tr:nth-child(even){background-color: #f2f2f2;}
+
+.ftable td, .ftable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.ftable tr:hover {background-color: #ddd;}
+
+.ftable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+.searchHotel{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.flexcointainer{
+    display: flex;
+    width: 100%;
+}
+.details{
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+.avHotels{
+    width: 63%;
+}
+.filter{
+    width: 25%;
+    margin-left: 50px;
+    background-color: #fff;
+    filter: drop-shadow(8px 8px 8px  rgb(28, 47, 87));
+    
+    margin-right: 40px;
+    
+}
+.image1{
+    height: 200px;
+    width: 250px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 28px;
+}
+.myroom{
+    height: 200px;
+    width: 250px;
+}
+.addServe{
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    justify-content: space-between;
+}
+.tick{
+    font-size: 24px;
+    color: green;
+}
+.booking{
+    justify-items: flex-end;
+    margin-left: 350px;
+}
+.booknow{
+    color: white;
+    width: 100%;
+    padding: 15px;
+    background-color: #3368bf;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.checking, .adcheck{
+    width: 19.5%;
+    margin-right: 20px;
+    padding: 12px;
+}
+.submit{
+    padding: 12px;
+    background-color: #3368bf;
+    color: #fff;
+    width: 130px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+span{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.bed, .locc{
+    color: #3368bf;
+    margin-right: 7px;
+    font-size: 20px;
+}
+.myroomDetails{
+    margin-left: 30px;
+}
+/* .dash{
+    width: 90%;
+    height: 50px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+} */
+.logout{
+    padding: 10px;
+    border: none;
+    border-radius: 4 0px 4px 0;
+    cursor: pointer;
+    outline: none;
+  /*   background: linear-gradient(
+      90deg,
+      rgb(12, 96, 221) 0%,
+      rgb(0, 108, 250) 100%
+    ); */
+    color: black;
+    text-transform: capitalize;
+    margin-right: px;
+    font-size: 20px;
+
+}
+input[type="date"]:not(.has-value):before{
+    color: rgb(209, 25, 25);
+    content: attr(placeholder);
+    font-size: 20px;
+}
+
+.formReserve{
+    filter: drop-shadow(8px 8px 10px rgb(0, 0, 0)); 
+    background-color: rgba(0, 0, 0,0.5);
+    width: 70%;
+    color: white;
+    border-top: solid 4px orangered;
+}
+.abcd{
+    width: 20%;
+    margin: 20px; 
+    padding: 15px;
+    border-radius: 4px;
+    border: none;
+}
+.pay{ 
+    text-align: left;
+    width: 70%;
+    font-size: 24px;
+  
+}
+.abcd::placeholder{
+    font-size: 20px;
+}
+.totalFee{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.rs{
+    color: white;
+    width: 20%;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: orangered;
+    margin-bottom: 20px;
+    margin: 15px;
+}
+.rs:hover{
+    background-color: rgb(143, 43, 7);
+    cursor: pointer;
+}
+.me{
+    width: 400px;
+    height: auto;
+    margin: 50px ;
+}
+.personalDetails{
+    display: flex;
+}
+.info{
+    color: black;
+    margin-top: 50px;
+}
+
+.myBooking{
+    height: 93.8vh;
+    background-image: url('../Files/pexels-konstantinos-eleftheriadis-2034335\ \(1\).jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding-top: 60px;
+}
+.popuphead{
+    display: flex;
+    justify-content: space-between;
+}
+.payBody{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.paypal{
+    display: flex;
+    justify-content: space-between;
+}
